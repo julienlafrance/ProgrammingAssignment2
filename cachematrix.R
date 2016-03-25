@@ -11,6 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
   setMatrix <- function(matrix = matrix()){
     x <<- matrix
+    inverse <- NULL
   }
   
   ## Get the matrix from the cache
